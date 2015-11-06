@@ -1,0 +1,21 @@
+body {
+	background-color: #000;
+	width: 100vw;
+	height: 100vh;
+}
+
+.formulaire {
+	width: 40%;
+	height: 20%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.board {
+	height: 75%;
+	width: 100%;
+	background-color:red;
+	margin-top: 10px;
+}
+
