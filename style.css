@@ -15,7 +15,15 @@ body {
 .board {
 	height: 75%;
 	width: 100%;
-	background-color:red;
 	margin-top: 10px;
+}
+
+.board div p{
+	color: #fff;
+}
+
+.board div span{
+	font-size: 12px;
+	color: grey;
 }
 
