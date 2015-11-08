@@ -83,7 +83,3 @@ body, input, button{font-family: monospace;}
 	width: 150px;
 	word-wrap: break-word;
 }
-
-.sign{
-	text-align: right !important;
-}
