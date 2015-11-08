@@ -2,16 +2,44 @@ body {
 	background-color: #000;
 	width: 100vw;
 	height: 100vh;
+	color:white;
+	text-align: center;
 }
 
+body, input, button{font-family: monospace;}
+
 .formulaire {
-	width: 40%;
-	height: 20%;
-	background-color: #fff;
+	width: 20%;
+	height: 200px;
 	margin: 0 auto;
 	padding: 10px;
 }
 
+
+.formulaire textarea{
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	border-radius: 0;
+	transition: border-radius 1s;
+}
+
+.formulaire input{
+	text-align: center;
+	border-radius: 0;
+	transition: border-radius 1s;
+}
+
+.formulaire textarea:focus, .formulaire input:focus{
+	border-radius: 30px;
+	transition: border-radius 1s;
+}
+
+.formulaire p, .formulaire button{
+	margin: 10px;
+}
+
+/*------Bloc message-------*/
 .board {
 	height: 75%;
 	width: 100%;
@@ -27,8 +55,8 @@ body {
 	color: grey;
 }
 
-/*------ Bloc message  / Draggable--------*/
 
+/*-----------DRAGGABLE------------*/
 #drag-1, #drag-2 {
   width: 25%;
   height: 100%;
@@ -52,4 +80,10 @@ body {
 
 .draggable{
 	display: inline-block;
+	width: 150px;
+	word-wrap: break-word;
+}
+
+.sign{
+	text-align: right !important;
 }

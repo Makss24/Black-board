@@ -18,9 +18,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // Création des élèments(noeud HTML) où seront stockés le contenu de 'msg' et 'sign'
     var newMessage = document.createElement('div'); // 'div' qui contiendra 'p' et 'span'
-    newMessage.className = "draggable"
+    newMessage.className = "draggable"; //Assignation d'une classe à au noeud "div" crée
     var p = document.createElement('p'); 
+    p.className = "content";
     var span = document.createElement('span');
+    span.className = "sign";
 
   // Intégration du contenu dans les noeuds crée précédement 
     var text = document.createTextNode(msg); // createTextNode créé un nouveau noeud HTML
