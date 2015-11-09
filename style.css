@@ -79,7 +79,11 @@ body, input, button{font-family: monospace;}
 }
 
 .draggable{
+	position: absolute;
 	display: inline-block;
 	width: 150px;
 	word-wrap: break-word;
+/*	background-image: url('post-it.png');
+	background-size: cover;%
+	background-position: center;*/
 }

@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
       // call this function on every dragmove event
       onmove: dragMoveListener,
+      
       // call this function on every dragend event
       onend: function (event) {
        // Exemple :
