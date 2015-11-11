@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function(){
 	if (!msg || !sign)
 	    return;
       
-
 	var newMessage = document.createElement('div');
 	newMessage.className = "draggable";
 	var p = document.createElement('p'); 
